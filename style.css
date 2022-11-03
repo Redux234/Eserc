@@ -1,6 +1,54 @@
+.contenitore-1 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
 .titolo {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 97, 118);
     font-weight: 1000;
+}
+
+.contenitore-flex {
+    display: flex;
+    margin: auto;
+    width: 250px;
+    background-color: rgb(5, 5, 24);
+    box-shadow: 10px black;
+    margin-top: 20px;
+ 
+}
+
+img {
+    object-fit: contain;
+    justify-content: start;
+    width: 75px;
+    height: 75px;
+}
+
+.contenitore {
+    flex-direction: column;
+    
+}
+
+.testo {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+.contenitore-flex-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.padre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
