@@ -20,7 +20,7 @@
     background-color: rgb(5, 5, 24);
     box-shadow: 10px black;
     margin-top: 20px;
- 
+
 }
 
 img {
@@ -32,7 +32,7 @@ img {
 
 .contenitore {
     flex-direction: column;
-    
+
 }
 
 .testo {
